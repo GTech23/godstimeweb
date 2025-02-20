@@ -1,0 +1,91 @@
+@media only screen and (max-width: 428px) {
+  main {
+    padding: 1.5rem 3%;
+    max-width: 100%;
+  }
+
+  .banner {
+    margin-top: 5rem;
+    margin-bottom: 15rem;
+  }
+  .banner-container {
+    flex-direction: column;
+  }
+
+  .profile-title {
+    font-size: 2rem;
+  }
+
+  .service-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .recent_work_container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .divider {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 428px) and (max-width: 900px) {
+  main {
+    padding: 1.5rem 8%;
+  }
+
+  .banner {
+    margin-bottom: 0rem;
+  }
+
+  .banner-img {
+    width: 600px;
+  }
+  .profile-title {
+    font-size: 2rem;
+  }
+
+  .service-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .recent_work_container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .skills-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .service-item {
+    width: 300px;
+  }
+
+  .divider {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  html {
+    font-size: 8px;
+  }
+
+  main {
+    padding: 1.5rem 1%;
+  }
+
+  .banner {
+    padding: 0 2%;
+  }
+
+  .profile-title {
+    font-size: 1.2rem;
+  }
+}

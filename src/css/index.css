@@ -1,0 +1,324 @@
+* {
+  font-family: "Poppins", Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #0a1c20;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: #060b14;
+  color: white;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 7%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  backdrop-filter: blur(6px);
+}
+
+.logo span {
+  font-family: inherit;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  font-size: 1.2rem;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.15s ease-in;
+}
+
+header a:hover {
+  transform: scale(1.1);
+}
+
+/* MAIN STYLES */
+main {
+  padding: 1.5rem 7%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.banner {
+  padding: 0 4%;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  gap: 5rem;
+}
+
+.profile-title {
+  font-size: 2.7rem;
+  font-family: Lexend, Helvetica;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #fcfae9, #dfe9fe);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+  color: #dfe9fe;
+}
+
+.banner-desc {
+  font-family: Rubik, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #dfe9fe;
+}
+
+.banner-RCTA img {
+  transition: all 0.5s ease-in-out;
+}
+
+.banner-RCTA img:hover {
+  transform: rotate(10deg);
+}
+
+.social-profile {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.social-links {
+  border: 2px solid #34afcb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+/* SERVICE STYLES */
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.service-desc {
+  font-size: 0.9rem;
+  color: #808e91;
+  font-family: Rubik, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #808e91;
+  font-family: Rubik, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#services {
+  margin-bottom: 5rem;
+}
+
+.service-container {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  place-items: center center;
+}
+
+.service-item {
+  background-color: #0a1c20;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.service-item h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1.3rem;
+}
+
+.service-item p {
+  line-height: 1.7;
+}
+
+#recent-work {
+  margin-bottom: 5rem;
+}
+
+.recent_work_container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.work_tagName {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.work_skill_set {
+  margin: 1.5rem 1.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.work_skill_set span {
+  color: white;
+  font-size: 0.8rem;
+}
+.work_skill_set p {
+  line-height: 1.7;
+}
+
+.work_action_btn {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.work_preview_link {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.work_preview_link:hover,
+.work_github_link:hover {
+  background-color: #808e91;
+  color: white;
+}
+
+.work_github_link {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+}
+
+.skills-container {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+}
+.skill-item {
+  border: 4px solid rgba(55, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  border-radius: 15px;
+  gap: 1rem;
+  transition: all 0.5s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.05);
+}
+
+.skill-text h3 {
+  font-size: 1rem;
+}
+
+#blog {
+  margin-bottom: 5rem;
+}
+
+#project-start {
+  margin-bottom: 5rem;
+}
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  gap: 2rem;
+}
+.center {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.divider {
+  height: 1px;
+  width: 800px;
+  background-color: #808e91;
+}
+.project-header {
+  justify-content: center;
+}
+
+.contact-link-col {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.contact-link-col a {
+  text-decoration: none;
+  color: #34afcb;
+}
+
+.social-links-footer {
+  background-color: #0a1c20;
+  border: none;
+}
+
+.contact-link-col a:hover {
+  background-color: #34afcb;
+  color: #0a1c20;
+}
+
+footer {
+  margin-bottom: 4rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.centurium-year,
+.app-author {
+  color: white;
+  font-weight: 800;
+}
