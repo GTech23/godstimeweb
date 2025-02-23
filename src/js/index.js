@@ -51,7 +51,7 @@ if (recentWork.length > 0) {
 } else {
   recentWorkContainer.classList.remove("recent_work_container");
   recentWorkContainer.innerHTML =
-    "<p style='margin-top: 2rem' class='subtitle'> Currently i have no open source project to show </p>";
+    "<p style='margin-top: 2rem' class='subtitle'> Currently i have no open source project to show, do well to check back later 😉 </p>";
 }
 
 // dynamically updating site footer
