@@ -14,7 +14,8 @@ const projectObjTemp = {
   project_url: "#",
   github_url: "#",
 };
-const recentWork = [{
+const recentWork = [
+  {
   project_name: 'Gideon AI',
   project_description: 'A Friendly AI Chatbot assistant for helping/solving users problem with a single line of prompt.',
   tech_tools: [
@@ -23,8 +24,34 @@ const recentWork = [{
     'JavaScript', 
     'API'
   ],
-  project_url: 'https://gideon-phi.vercel.app/'
-}];
+  project_url: 'https://gideon-phi.vercel.app/',
+  github_url: 'https://github.com/GTech23/gideon'
+},
+
+{
+  project_name: 'NetFlix Login Clone',
+  project_description: 'A practice based project to replicate / clone NetFlix Login page',
+  tech_tools: [
+    'HTML', 
+    'CSS', 
+  ],
+  project_url: 'https://net-flix-login.vercel.app/',
+  github_url: 'https://github.com/GTech23/NetFlix-Login'
+},
+
+{
+  project_name: 'Moeny',
+  project_description: 'Landing Page for a  Simple Budgeting Web app to  Manage your expenses, create a budget, and achieve financial freedom with our simple and intuitive budgeting tools',
+  tech_tools: [
+    'HTML', 
+    'CSS', 
+  ],
+  project_url: 'https://moeny.vercel.app/',
+  github_url: 'https://github.com/GTech23/Moeny'
+},
+
+
+];
 
 let recentWorkHTML = "";
 if (recentWork.length > 0) {
