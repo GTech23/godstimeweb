@@ -14,7 +14,17 @@ const projectObjTemp = {
   project_url: "#",
   github_url: "#",
 };
-const recentWork = [];
+const recentWork = [{
+  project_name: 'Gideon AI',
+  project_description: 'A Friendly AI Chatbot assistant for helping/solving users problem with a single line of prompt.',
+  tech_tools: [
+    'HTML', 
+    'CSS', 
+    'JavaScript', 
+    'API'
+  ],
+  project_url: 'https://gideon-phi.vercel.app/'
+}];
 
 let recentWorkHTML = "";
 if (recentWork.length > 0) {
