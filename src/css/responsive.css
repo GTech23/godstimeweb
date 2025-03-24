@@ -72,6 +72,24 @@
   }
 }
 
+@media screen and (min-width: 578px) and (max-width: 900px){
+  .banner-container{
+    gap: 2rem
+  }
+  .banner-LCTA{
+    flex-basis: 50%;
+  }
+  .banner-RCTA{
+    flex-basis: 50%;
+  }
+
+  .profile-title{
+    font-size: 2rem
+  }
+
+}
+
+
 @media screen and (max-width: 200px) {
   html {
     font-size: 8px;

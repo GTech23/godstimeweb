@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-color: #060b14;
+  background-color: #061417;
   color: white;
 }
 
@@ -69,6 +69,10 @@ main {
   gap: 5rem;
 }
 
+.banner-LCTA{
+  flex-basis: 60%;
+}
+
 .profile-title {
   font-size: 2.7rem;
   font-family: Lexend, Helvetica;
@@ -76,6 +80,7 @@ main {
   background: linear-gradient(90deg, #fcfae9, #dfe9fe);
   -webkit-background-clip: text;
   background-clip: text;
+  letter-spacing: -1px;
   color: transparent;
   font-weight: bolder;
   color: #dfe9fe;
@@ -149,7 +154,6 @@ main {
 .service-item {
   background-color: #0a1c20;
   height: 300px;
-  width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
